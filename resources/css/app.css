@@ -20,9 +20,10 @@
 
 @layer components {
     .card {
-        @apply bg-gray-100 h-[400px] mt-[30px] rounded-md shadow-md shadow-gray-200 border border-gray-200 p-4 dark:bg-[#0b1326] dark:shadow-[#0f1a35] dark:border-[#192135] dark:text-gray-200;
+        @apply bg-gray-50 min-h-[500px] mt-[30px] rounded-md shadow-md shadow-gray-200 border border-gray-200 p-4 dark:bg-[#0b1326] dark:shadow-[#0f1a35] dark:border-[#192135] dark:text-gray-200;
     }
 
+    /* button design */
     .btn-primary {
         @apply py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
     }
@@ -47,15 +48,23 @@
         @apply inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-teal-500 text-white;
     }
 
-    .outline-success {
-        @apply border bg-transparent border-teal-500 text-teal-500;
-    }
-
     .badge-danger {
         @apply inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-red-500 text-white;
+    }
+    /* button design */
+
+    
+    /* outline style */
+    .outline-success {
+        @apply border bg-transparent border-teal-500 text-teal-500;
     }
 
     .outline-danger {
         @apply  border bg-transparent border-red-500 text-red-500;
     }
+
+    .outline-primary {
+        @apply  border bg-transparent border-blue-600 text-blue-500;
+    }
+    /* outline style */
 }
