@@ -22,4 +22,40 @@
     .card {
         @apply bg-gray-100 h-[400px] mt-[30px] rounded-md shadow-md shadow-gray-200 border border-gray-200 p-4 dark:bg-[#0b1326] dark:shadow-[#0f1a35] dark:border-[#192135] dark:text-gray-200;
     }
+
+    .btn-primary {
+        @apply py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
+    }
+
+    .btn-dark {
+        @apply py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 dark:bg-white dark:text-gray-800;
+    }
+
+    .btn-secondary {
+        @apply py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-500 text-white hover:bg-gray-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
+    }
+
+    .btn-info {
+        @apply py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
+    }
+
+    .btn-danger {
+        @apply py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-red-500 text-white hover:bg-red-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
+    }
+
+    .badge-success {
+        @apply inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-teal-500 text-white;
+    }
+
+    .outline-success {
+        @apply border bg-transparent border-teal-500 text-teal-500;
+    }
+
+    .badge-danger {
+        @apply inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-red-500 text-white;
+    }
+
+    .outline-danger {
+        @apply  border bg-transparent border-red-500 text-red-500;
+    }
 }
