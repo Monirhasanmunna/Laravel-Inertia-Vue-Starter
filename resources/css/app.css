@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1{
+        @apply text-3xl
+    }
+    h2{
+        @apply text-2xl
+    }
+    h3{
+        @apply text-xl
+    }
+    h4{
+        @apply text-lg
+    }
+}
+
+
+@layer components {
+    .card {
+        @apply bg-gray-100 h-[400px] mt-[30px] rounded-md shadow-md shadow-gray-200 border border-gray-200 p-4 dark:bg-[#0b1326] dark:shadow-[#0f1a35] dark:border-[#192135] dark:text-gray-200;
+    }
+}
